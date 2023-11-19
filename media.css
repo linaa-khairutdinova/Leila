@@ -1,0 +1,413 @@
+/* @media(min-width: 320px) and (max-width: 424px){
+
+    .header-navbar {
+        width: 50%;
+        display: block;
+        clear: none;
+    }
+
+    .navbar-logo {
+        float: none;
+    }
+
+    .navbar-menu {
+        float: none;
+        padding-top: 15px;
+    }
+
+    .navbar-menu li{
+        padding-right: 0px;
+        padding-bottom: 15px;
+        font-size: 16px;
+        display: block;
+        text-align: center;
+    }
+
+    .navbar-menu li:last-child {
+        font-size: 13px;
+    }
+
+    .header-title h1 {
+        font-size: 20px;
+        width: 90%;
+    }
+
+    .header-subtitle {
+        font-size: 12px;
+        width: 90%;
+    }
+
+    .header-form-email {
+        width: 90%;
+    }
+
+    form .form-email {
+        width: 65%;
+    }
+
+    form .form-submit {
+        width: 35%;
+    }
+
+    .header-comments {
+        width: 90%;
+    }
+
+    .comment-one {
+        left: 0px;
+        width: 100%;
+    }
+
+    .comment-two {
+        right: 0px;
+        width: 100%;
+    }
+
+    .comment-img-one {
+        top: 17px;
+        left: -18px;
+    }
+
+    .comment-text-one {
+        padding: 30px 30px 30px 85px;
+    }
+
+    .comment-img-two {
+        top: 16px;
+        right: -10px;
+    }
+
+    .comment-text-two {
+        padding: 30px 85px 30px 30px;
+    }
+
+}
+
+@media(min-width: 425px) and (max-width: 524px){
+
+    .navbar-menu li {
+        font-size: 16px;
+        padding-top: 20px;
+        padding-right: 41px;
+    }
+
+    .navbar-menu li:last-child {
+        margin-top: 20px;
+    }
+
+     .header-title h1 {
+        font-size: 26px;
+        width: 90%;
+    }
+
+    .header-subtitle {
+        font-size: 14px;
+        width: 90%;
+    }
+
+    .header-form-email {
+        width: 85%;
+    }
+
+    form .form-email {
+        width: 65%;
+    }
+
+    form .form-submit {
+        width: 35%;
+    }
+
+    .header-comments {
+        width: 65%;
+    }
+
+    .comment-one {
+        left: -9px;
+    }
+
+    .comment-img-one {
+        top: 14px;
+        left: -35px;
+    }
+
+    .comment-text-one {
+        padding: 30px 30px 30px 66px;
+    }
+
+    .comment-two {
+        right: -98px;
+    }
+
+    .comment-img-two {
+        top: 9px;
+        right: -20px;
+    }
+
+    .comment-text-two {
+        padding: 30px 50px 30px 20px;
+    }
+} */
+
+@media(max-width: 425px){
+
+    .navbar-menu li:last-child {
+        font-size: 13px;
+    }
+
+    .header-title h1 {
+        font-size: 20px;
+        width: 90%;
+    }
+
+    .header-subtitle {
+        font-size: 12px;
+        width: 90%;
+    }
+
+    .header-form-email {
+        width: 90%;
+    }
+
+    form .form-email {
+        width: 65%;
+    }
+
+    form .form-submit {
+        width: 35%;
+    }
+
+    .header-comments {
+        width: 90%;
+    }
+
+    .comment-one {
+        left: 0px;
+        width: 100%;
+    }
+
+    .comment-two {
+        right: 0px;
+        width: 100%;
+    }
+
+    .comment-img-one {
+        top: 17px;
+        left: -18px;
+    }
+
+    .comment-text-one {
+        padding: 30px 30px 30px 85px;
+    }
+
+    .comment-img-two {
+        top: 16px;
+        right: -10px;
+    }
+
+    .comment-text-two {
+        padding: 30px 85px 30px 30px;
+    }
+
+
+
+    .header-logo {
+        width: 35%;
+        margin: auto;
+       float: none;
+    }
+
+    .header-menu {
+        width: 50%;
+        margin: auto;
+       float: none;
+    }
+
+    .header-menu li {
+        text-align: center;
+       display: block;
+        font-size: small;
+        padding-bottom: 20px;
+    }
+
+    .container{
+        width: 90%;
+    }
+
+    .main-content{
+        display: block;
+        clear: none;
+    }
+
+    .content-img{
+        padding: 0;
+    }
+
+    .graphik-img{
+        float: none;
+    }
+
+    .content-info{
+        float: none;
+        width: 80%;
+        margin: auto;
+        padding: 0;
+    }
+
+    .user-img{
+        float: none;
+    }
+
+    .mail-img{
+        float: none;
+    }
+
+    .integration-content {
+        display: block;
+        clear: none;
+    }
+
+    .integration-img {
+       float: none;
+    }
+
+    .content-img {
+        width: 80%;
+    }
+
+    .container-col {
+       display: block;
+    }
+}
+
+@media(min-width: 426px) and (max-width: 768px){
+
+    .header-logo {
+        width: 35%;
+        margin: auto;
+       float: none;
+    }
+
+    .header-menu {
+        width: 50%;
+        margin: auto;
+       float: none;
+    }
+
+    .header-menu li {
+        text-align: center;
+       display: block;
+        font-size: small;
+        padding-bottom: 20px;
+    }
+
+    .container{
+        width: 90%;
+    }
+
+    .main-content{
+        display: block;
+        clear: none;
+    }
+
+    .content-img{
+        padding: 0;
+    }
+
+    .graphik-img{
+        float: none;
+    }
+
+    .content-info{
+        float: none;
+        width: 60%;
+        margin: auto;
+        padding: 0;
+    }
+
+    .user-img{
+        float: none;
+    }
+
+    .mail-img{
+        float: none;
+    }
+
+    .integration-content {
+        display: block;
+        clear: none;
+    }
+
+    .integration-img {
+       float: none;
+    }
+
+    .content-img {
+        width: 80%;
+    }
+
+    .container-col {
+       display: block;
+    }
+}
+
+@media(min-width: 769px) and (max-width: 1024px){
+    .container{
+        width: 80%;
+    }
+
+    .main-content{
+        display: block;
+        clear: none;
+    }
+
+    .content-img{
+        padding: 0;
+    }
+
+    .graphik-img{
+        float: none;
+    }
+
+    .content-info{
+        float: none;
+        width: 60%;
+        margin: auto;
+        padding: 0;
+    }
+
+    .user-img{
+        float: none;
+    }
+
+    .mail-img{
+        float: none;
+    }
+
+    .integration-content {
+        display: block;
+        clear: none;
+    }
+
+    .integration-img {
+       float: none;
+    }
+
+    .content-img {
+        width: 80%;
+    }
+
+    .container-col {
+        display: block;
+     }
+}
+
+@media(min-width: 1025px) and (max-width: 1440px){
+    .container{
+        width: 90%;
+    }
+}
+
+/* @media(min-width: 1441px){} */
+
+
+
